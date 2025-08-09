@@ -8,7 +8,7 @@ def format_report(data):
             if result.get('detected'):
                 res = result.get('result') or 'malicious'
                 print(f"{engine}: {res}")
-    print("bento 1.0") 
+    print("bento .5") 
 
 import os
 import requests

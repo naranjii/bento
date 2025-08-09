@@ -1,5 +1,8 @@
 # bento
 A CLI for scanning files | urls for suspicious activity and malware. Encrypts and sends packages with hash and python requests; Returns details on possible detections.
+
+<h2>🚧🚧🚧🚧 pre-release repo 🚧🚧 🚧🚧</h2>
+
 ## example-usage
 ```sh
 bento https://example.com
@@ -40,6 +43,7 @@ See [VirusTotal API v2.0 docs](https://docs.virustotal.com/v2.0/) for more detai
 
 ## roadmap && to-do
 ```
+fix url query
 better string detection and debugging messages
 if threat is detected forward updated information about 
 ```
