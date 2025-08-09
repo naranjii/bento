@@ -1,5 +1,5 @@
-# bento
-A CLI for scanning files | urls for suspicious activity and malware. Encrypts and sends packages with hash and python requests; Returns details on possible detections.
+<h1><i>🏅 bento </i></h1>
+Command line interface for scanning files | urls for suspicious activity and malware. Encrypts and sends packages with hash and python requests; Returns details on possible detections.
 
 <h2>🚧🚧🚧🚧 pre-release repo 🚧🚧 🚧🚧</h2>
 
@@ -7,6 +7,11 @@ A CLI for scanning files | urls for suspicious activity and malware. Encrypts an
 ```sh
 bento https://example.com
 bento suspicious_file.zip
+```
+prints:
+```sh
+File flagged by 0 out of 63 antivirus analysis systems.
+bento 1.0
 ```
 ## installation
 1. Install dependencies:
