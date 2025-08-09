@@ -60,7 +60,7 @@ def scan_url(url_to_scan):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: checkvirus PATH_OR_URL")
+        print("syntax: bento PATH_OR_URL")
         sys.exit(1)
 
     target = sys.argv[1]

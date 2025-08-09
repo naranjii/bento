@@ -1,1 +1,11 @@
+__pycache__/
+bento.egg-info/
 .env
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+.DS_Store
+.idea/
+.vscode/
