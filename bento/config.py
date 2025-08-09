@@ -1,6 +1,6 @@
 import os
 
-API_KEY_ENV = '67f58b9f689bc42c51912f4cebeaf5ac257a08d4c7e587f3ce1bfea2a992589a'
+API_KEY_ENV = 'BENTO_VT_API_KEY'
 
 
 def get_api_key():
