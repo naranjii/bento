@@ -18,10 +18,10 @@ API_URL = 'https://www.virustotal.com/vtapi/v2/'
 
 def process_input(input_value):
     if os.path.isfile(input_value):
-        print(f"bento has sent ***({input_value}) as encrypted package to queue")
+        print(f"Sent ({input_value}) as encrypted package to queue...")
         scan_file(input_value)
     else:
-        print(f"bento has sent ***({input_value}) as encrypted package to queue")
+        print(f"Sent ({input_value}) as encrypted package to queue...")
         scan_url(input_value)
 
 def scan_file(file_path):
@@ -44,8 +44,6 @@ def scan_url(url_to_scan):
     resp = requests.post(url, data=params)
     data = resp.json()
     # Print all metadata for URL
-    for k, v in data.items():
-        print(f"{k}: {v}")
     if data and 'resource' in data:
         print("\nRetrieving report...")
         get_report(data['resource'], is_file=False)

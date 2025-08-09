@@ -1,15 +1,11 @@
 # bento
-
 A CLI for scanning files | urls for suspicious activity and malware. Encrypts and sends packages with hash and python requests; Returns details on possible detections.
 ## example-usage
-
 ```sh
 bento https://example.com
 bento suspicious_file.zip
 ```
-
 ## installation
-
 1. Install dependencies:
 	 ```sh
      git clone https://github.com/naranjii/bento
@@ -19,11 +15,9 @@ bento suspicious_file.zip
 	 ```sh
 	 pip install -e .
 	 ```
-
-## API key setup
-
-Ensure registering @ www.virustotal.com to receive your API key.
-Get your VirusTotal API key as an environment variable:
+3. Setup your API key to your environment:
+Ensure you're registered @ www.virustotal.com to get an API key.
+Insert your key as BENTO_VT_API_KEY in environment variables:
 
 - On Windows (PowerShell):
 	```powershell
@@ -43,3 +37,9 @@ bento <URL_OR_PATH>
 - If it is a URL, the URL will be submitted for scanning.
 
 See [VirusTotal API v2.0 docs](https://docs.virustotal.com/v2.0/) for more details.
+
+## roadmap && to-do
+```
+better string detection and debugging messages
+if threat is detected forward updated information about 
+```
