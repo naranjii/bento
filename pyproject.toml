@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bento-vt-cli" # Nome da sua ferramenta
+version = "0.5"
+dependencies = [
+    "requests",
+    "click",
+]
+
+[project.scripts]
+bento = "bento.py:main"
