@@ -1,5 +1,5 @@
 <h1><i>🏅 bento </i></h1>
-A CLI for scanning files | urls for suspicious activity and malware. Encrypts and sends packages with hash and python requests; Returns details on possible detections.
+Command line interface for scanning files | urls for suspicious activity and malware. Encrypts and sends packages with hash and python requests; Returns details on possible detections.
 
 <h2>🚧🚧🚧🚧 pre-release repo 🚧🚧 🚧🚧</h2>
 
